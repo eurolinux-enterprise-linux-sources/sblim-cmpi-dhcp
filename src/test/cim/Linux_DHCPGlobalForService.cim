@@ -1,0 +1,43 @@
+********************************************************************************
+association : Linux_DHCPGlobalForService
+objectPath : QueryCimObjectPath(Linux_DHCPGlobalForService[1])
+modifyInst : managedelement=nothing
+createInst : ManagedElement=linux_dhcpservice,SettingData=linux_dhcpglobal
+classKey : ManagedElement,SettingData
+sourceRole : ManagedElement
+targetRole : SettingData
+sourceClass : Linux_DHCPService
+targetClass : Linux_DHCPGlobal
+
+--------------------------------------------------------------------------------
+Instance                                                       enumInstanceNames
+
+--------------------------------------------------------------------------------
+Instance                                                           enumInstances
+
+--------------------------------------------------------------------------------
+Instance                                                                     get
+
+--------------------------------------------------------------------------------
+Instance                                                                  create
+Expected Exception : NOT_SUPPORTED
+
+--------------------------------------------------------------------------------
+Instance                                                                     set
+Expected Exception : NOT_SUPPORTED
+
+--------------------------------------------------------------------------------
+Instance                                                                  delete
+Expected Exception : NOT_SUPPORTED
+
+--------------------------------------------------------------------------------
+Association                                                          associators
+
+--------------------------------------------------------------------------------
+Association                                                      associatorNames
+
+--------------------------------------------------------------------------------
+Association                                                           references
+
+--------------------------------------------------------------------------------
+Association                                                       referenceNames

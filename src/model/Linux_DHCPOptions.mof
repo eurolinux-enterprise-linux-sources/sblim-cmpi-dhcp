@@ -1,0 +1,25 @@
+[Description(" Entity to represent the options specified in the dhcp.conf file.")
+]
+class Linux_DHCPOptions : CIM_SettingData {
+
+	[Write, 
+	Description (" values is a string array consisting of the values mapped to particular keys.")]
+	string values;
+
+	[Write ,
+	 Description("The Parent Instance ID ")]
+	string ParentID;
+	
+	[Write ,
+	 Description("Name of the entity.")]
+	string Name;	
+	
+	
+	};
+
+[Description("Entity to represent a filter to indicate a change in the Options entity in the dhcpd.conf file.")
+]
+
+class Linux_DHCPOptions_Ind : CIM_Indication {
+
+};	
